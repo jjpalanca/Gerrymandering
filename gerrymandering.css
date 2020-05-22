@@ -1,0 +1,33 @@
+/*
+Author: Jessmer John Palanca
+Section: CSC337 Web Programming SPRING2019, Homework 6
+Filename: gerrymandering.css
+Description: The css file for the gerrymandering.html
+*/
+
+.dem, .gop {
+	height: 30px;
+	margin-bottom: 5px;
+}
+
+.dem {
+	background-color: blue;
+	width: 75%;
+}
+.newDiv{
+	display:flex;
+}
+
+.gop {
+	background-color: red;
+	width: 25%;
+}
+
+body {
+	width: 80%;
+	margin: auto;
+}
+
+#searchdiv, h1 {
+	text-align: center;
+}
